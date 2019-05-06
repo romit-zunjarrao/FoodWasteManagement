@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Saving Aliments</string>
+    <string name="email">Email :</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="have_food_dont_waste_it">Have Food? Dont waste it</string>
+    <string name="donate">Donate / Sell</string>
+    <string name="look_for_food">Look For Food</string>
+    <string name="grab_it">Grab It!!!</string>
+    <string name="food_item_name">Food Item Name</string>
+    <string name="food_item_quantity">Food Item Quantity</string>
+    <string name="food_item_price">Food Item Price</string>
+    <string name="contact_no">Contact No.</string>
+    <string name="address_point">Address Point</string>
+    <string name="intro">"Our mission is to reduce food wastage worldwide starting from your neighborhood. Our vision is to create a world where ’Food Produced’ means ‘Food Consumed"</string>
+</resources>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SellOrDonateForm">
+
+    <TextView
+        android:id="@+id/foodItemNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/food_item_name"
+        android:textSize="20sp"
+        android:layout_marginTop="40dp"
+        android:layout_alignEnd="@id/foodItemQuantityTextView"
+        />
+
+    <EditText
+        android:id="@+id/foodItemNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/foodItemNameTextView"
+        android:layout_alignBaseline="@id/foodItemNameTextView"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/foodItemQuantityTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/food_item_quantity"
+        android:textSize="20sp"
+        android:layout_below="@id/foodItemNameTextView"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:id="@+id/foodItemQuantityEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/foodItemQuantityTextView"
+        android:layout_below="@id/foodItemNameEditText"
+        android:layout_alignBaseline="@id/foodItemQuantityTextView"
+        android:textSize="20sp"/>
+
+
+    <TextView
+    android:id="@+id/foodItemPriceTextView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/food_item_price"
+    android:textSize="20sp"
+    android:layout_below="@id/foodItemQuantityTextView"
+        android:layout_alignEnd="@id/foodItemQuantityTextView"
+        android:layout_marginTop="10dp"
+
+
+        />
+
+    <EditText
+        android:id="@+id/foodItemPriceEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/foodItemQuantityTextView"
+        android:layout_below="@id/foodItemQuantityTextView"
+        android:layout_alignBaseline="@id/foodItemPriceTextView"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/contactNoTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_no"
+        android:textSize="20sp"
+        android:layout_below="@id/foodItemPriceTextView"
+        android:layout_alignEnd="@id/foodItemQuantityTextView"
+        android:layout_marginTop="10dp"
+
+
+        />
+
+    <EditText
+        android:id="@+id/contactNoEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/contactNoTextView"
+        android:layout_below="@id/foodItemPriceEditText"
+        android:layout_alignBaseline="@id/contactNoTextView"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/addressPointTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/address_point"
+        android:textSize="20sp"
+        android:layout_below="@id/contactNoTextView"
+        android:layout_alignEnd="@id/foodItemQuantityTextView"
+        android:layout_marginTop="10dp"
+
+
+        />
+
+    <EditText
+        android:id="@+id/addressPointEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/addressPointTextView"
+        android:layout_below="@id/contactNoEditText"
+        android:layout_alignBaseline="@id/addressPointTextView"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/addFoodItemButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Item"
+        android:textSize="20sp"
+        android:layout_below="@id/addressPointTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:onClick="addItem"
+        />
+
+</RelativeLayout>

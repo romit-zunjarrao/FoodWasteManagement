@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <TextView
+        android:id="@+id/itemNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Item Name : "
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/itemName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/itemNameTextView"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/itemQuantityTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Item Quantity : "
+        android:layout_below="@id/itemNameTextView"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/itemQuantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_below="@id/itemNameTextView"
+        android:layout_toEndOf="@+id/itemQuantityTextView"/>
+
+    <TextView
+        android:id="@+id/itemPriceTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Item Price : "
+        android:layout_below="@id/itemQuantityTextView"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/itemPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_below="@id/itemQuantityTextView"
+        android:layout_toEndOf="@+id/itemPriceTextView"/>
+
+
+
+
+
+    <TextView
+        android:id="@+id/contactNoTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact No : "
+        android:layout_below="@id/itemPriceTextView"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/contactNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_toEndOf="@id/itemPriceTextView"
+        android:layout_below="@+id/itemPrice"/>
+
+    <TextView
+        android:id="@+id/addressPointTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address Point : "
+        android:layout_below="@id/contactNoTextView"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/addressPoint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_below="@id/contactNoTextView"
+        android:layout_toEndOf="@+id/contactNo"
+        />
+
+
+</RelativeLayout>
